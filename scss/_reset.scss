@@ -15,9 +15,7 @@ header {
 
   h1 {
     font-size: 70px;
-    font-weight: 400;
-
-    font-weight: 500;
+    font-weight: 200;
     text-transform: uppercase;
   }
   h3 {
@@ -40,9 +38,11 @@ nav {
     padding: 10px;
 
     &:hover {
-      background-color: blue;
+      background-color: rgba(255, 255, 255, 0.25);
       width: 100%;
       text-align: center;
+      /*transition: 0.4s ease;
+      font-size: 20px; */
     }
   }
 }
@@ -55,6 +55,10 @@ article {
   margin-top: 3rem;
   overflow: hidden;
   font-weight: 100;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 15px;
+  margin: 15px;
+  padding-bottom: 20px;
 
   h3 {
     font-size: 60px;
@@ -63,5 +67,30 @@ article {
 
   h5 {
     font-weight: 100;
+  }
+
+  .img {
+    width: 300px;
+    height: 400px;
+    object-fit: contain;
+  }
+}
+
+section {
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 15px;
+  margin: 15px;
+  text-align: center;
+  padding-top: 10px;
+
+  h3 {
+    font-size: 60px;
+    font-weight: 100;
+    text-align: center;
+    margin: 0;
+
+    p {
+      padding: 2em;
+    }
   }
 }

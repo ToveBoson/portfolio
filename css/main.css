@@ -13,8 +13,7 @@ header {
 }
 header h1 {
   font-size: 70px;
-  font-weight: 400;
-  font-weight: 500;
+  font-weight: 200;
   text-transform: uppercase;
 }
 header h3 {
@@ -35,9 +34,11 @@ nav a {
   padding: 10px;
 }
 nav a:hover {
-  background-color: blue;
+  background-color: rgba(255, 255, 255, 0.25);
   width: 100%;
   text-align: center;
+  /*transition: 0.4s ease;
+  font-size: 20px; */
 }
 
 main {
@@ -49,6 +50,10 @@ article {
   margin-top: 3rem;
   overflow: hidden;
   font-weight: 100;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 15px;
+  margin: 15px;
+  padding-bottom: 20px;
 }
 article h3 {
   font-size: 60px;
@@ -56,6 +61,28 @@ article h3 {
 }
 article h5 {
   font-weight: 100;
+}
+article .img {
+  width: 300px;
+  height: 400px;
+  object-fit: contain;
+}
+
+section {
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 15px;
+  margin: 15px;
+  text-align: center;
+  padding-top: 10px;
+}
+section h3 {
+  font-size: 60px;
+  font-weight: 100;
+  text-align: center;
+  margin: 0;
+}
+section h3 p {
+  padding: 2em;
 }
 
 /*# sourceMappingURL=main.css.map */
