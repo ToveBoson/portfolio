@@ -5,21 +5,38 @@ body {
   background-color: v.$bodybgcolor;
   margin: 0;
   box-sizing: border-box;
+  color: #fff;
+  text-shadow: 2px 2px #000;
 }
 
 header {
   text-align: center;
+  font-weight: 100;
+
+  h1 {
+    font-size: 70px;
+    font-weight: 400;
+
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  h3 {
+    font-weight: 100;
+  }
 }
 
 nav {
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-weight: 100;
 
   a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
+
     padding: 10px;
 
     &:hover {
@@ -27,5 +44,24 @@ nav {
       width: 100%;
       text-align: center;
     }
+  }
+}
+
+main {
+  font-weight: 100;
+}
+article {
+  text-align: center;
+  margin-top: 3rem;
+  overflow: hidden;
+  font-weight: 100;
+
+  h3 {
+    font-size: 60px;
+    font-weight: 100;
+  }
+
+  h5 {
+    font-weight: 100;
   }
 }

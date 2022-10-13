@@ -3,27 +3,59 @@ body {
   background-color: #aa334f;
   margin: 0;
   box-sizing: border-box;
+  color: #fff;
+  text-shadow: 2px 2px #000;
 }
 
 header {
   text-align: center;
+  font-weight: 100;
+}
+header h1 {
+  font-size: 70px;
+  font-weight: 400;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+header h3 {
+  font-weight: 100;
 }
 
 nav {
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-weight: 100;
 }
 nav a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
   padding: 10px;
 }
 nav a:hover {
   background-color: blue;
   width: 100%;
   text-align: center;
+}
+
+main {
+  font-weight: 100;
+}
+
+article {
+  text-align: center;
+  margin-top: 3rem;
+  overflow: hidden;
+  font-weight: 100;
+}
+article h3 {
+  font-size: 60px;
+  font-weight: 100;
+}
+article h5 {
+  font-weight: 100;
 }
 
 /*# sourceMappingURL=main.css.map */
