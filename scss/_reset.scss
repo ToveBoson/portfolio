@@ -12,6 +12,10 @@ body {
   @include m.tablet {
     background-color: blue;
   }
+
+  @include m.desktop {
+    background-color: yellow;
+  }
 }
 
 header {

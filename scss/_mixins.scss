@@ -1,7 +1,15 @@
+/* Partials*/
 @use "variables" as v;
 
+/*Media queries*/
 @mixin tablet {
   @media screen and (min-width: 840px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: 1200px) {
     @content;
   }
 }

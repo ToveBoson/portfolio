@@ -1,3 +1,5 @@
+/* Partials*/
+/*Media queries*/
 body {
   font-family: "Poppins", sans-serif;
   background-color: #aa334f;
@@ -9,6 +11,11 @@ body {
 @media screen and (min-width: 840px) {
   body {
     background-color: blue;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body {
+    background-color: yellow;
   }
 }
 
