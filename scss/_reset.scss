@@ -97,19 +97,23 @@ section {
 
 footer {
   background-color: rgba(255, 255, 255, 0.25);
+  height: 10em;
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   ul {
-    list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
     padding-inline-start: 0;
     margin-bottom: 0;
     height: 70px;
   }
+
   li a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 20px;
     text-decoration: none;
     color: white;
     font-weight: 300;
