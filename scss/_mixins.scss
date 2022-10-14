@@ -1,7 +1,7 @@
 /* Partials*/
 @use "variables" as v;
 
-/*Media queries*/
+/*Media queries screensizes*/
 @mixin tablet {
   @media screen and (min-width: 840px) {
     @content;
